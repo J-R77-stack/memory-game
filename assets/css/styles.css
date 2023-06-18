@@ -1,0 +1,14 @@
+body {
+    background-color: #fcfcfc;
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #152938
+}
+
+h1 {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #152938;
+    font-size: 48px;
+}
