@@ -12,3 +12,20 @@ h1 {
     color: #152938;
     font-size: 48px;
 }
+
+#button-1 {
+    background-color: #FDA214;
+    color: #fcfcfc;
+}
+
+#button-1:hover {
+    background-color: #FFD580;
+}
+
+#button-2 {
+    background-color: #BCCED9;
+}
+
+#button-2:hover {
+    background-color: #6395b8;
+}
