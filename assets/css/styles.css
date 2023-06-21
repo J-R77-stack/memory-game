@@ -7,6 +7,8 @@ body {
     color: #152938
 }
 
+/* navbar */
+
 h1 {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #152938;
@@ -28,4 +30,43 @@ h1 {
 
 #button-2:hover {
     background-color: #6395b8;
+}
+
+#button-3 {
+    background-color: #FDA214;
+    color: #fcfcfc;
+}
+
+#button-3:hover {
+    background-color: #FFD580;
+}
+
+/* game area */
+
+
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #304859;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+/* Media Queries */
+
+/* for screens 390px max */
+
+@media (max-width: 390px) {
+    .circle {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+       margin-left: 25px;
+    }
 }
