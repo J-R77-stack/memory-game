@@ -13,6 +13,13 @@ h1 {
     font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #152938;
     font-size: 48px;
+    text-align: end;
+}
+
+h3 {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #152938;
+    font-size: 20px;
 }
 
 #button-1 {
@@ -43,30 +50,110 @@ h1 {
 
 /* game area */
 
-
+.container {
+    margin-top: 80px;
+    height: 572px;
+    width: 572px;
+}
 
 .circle {
-    height: 100px;
-    width: 100px;
+    height: 82px;
+    width: 82px;
     background-color: #304859;
     border-radius: 50%;
     display: inline-block;
+    margin: 5px;
+    padding: 0px;
 }
 
+#footer {
+    height: 130px;
+    width: 1110px;
+}
+
+.info-box1 {
+    background-color: #fda214;
+    height: 72px;
+    width: 255px;
+}
+
+.info-box2 {
+    background-color: #bcced9;
+    height: 72px;
+    width: 255px;
+}
+
+.info-box3 {
+    background-color: #bcced9;
+    height: 72px;
+    width: 255px;
+}
+
+.info-box4 {
+    background-color: #bcced9;
+    height: 72px;
+    width: 255px;
+}
+
+span {
+   margin-left: 110px;
+}
 
 /* Media Queries */
 
 /* for screens 390px max */
 
 @media (max-width: 390px) {
+    .container {  
+        height: 100%;
+        width: 100%;
+       
+    }
+} 
+
+@media (max-width: 390px) {
     .circle {
-        height: 50px;
-        width: 50px;
+        height: 55px;
+        width: 55px;
+       
+    }
+} 
+
+/* for screens 900px */
+
+@media (max-width: 900px) {
+    .container1 {
+        height: 92px;
+        width: 689px; 
+    }
+} 
+
+@media (max-width: 900px) {
+    .info-box1  {
+        height: 80px;
+        width: 164px;
+    }
+} 
+
+@media (max-width: 900px) {
+    .info-box2  {
+        height: 80px;
+        width: 164px;
     }
 }
 
-@media (max-width: 390px) {
-    .container {
-       margin-left: 25px;
+@media (max-width: 900px) {
+    .info-box3  {
+        height: 80px;
+        width: 164px;
     }
 }
+
+@media (max-width: 900px) {
+    .info-box4  {
+        height: 80px;
+        width: 164px;
+    }
+}
+
+
