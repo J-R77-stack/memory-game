@@ -22,6 +22,10 @@ h3 {
     font-size: 20px;
 }
 
+.space {
+    padding: 25px;
+}
+
 #button-1 {
     background-color: #FDA214;
     color: #fcfcfc;
@@ -50,10 +54,11 @@ h3 {
 
 /* game area */
 
-.container {
+#container1 {
     margin-top: 80px;
     height: 572px;
     width: 572px;
+    margin-bottom: 80px;
 }
 
 .circle {
@@ -96,7 +101,7 @@ h3 {
 }
 
 span {
-   margin-left: 110px;
+    margin-left: 110px;
 }
 
 /* Media Queries */
@@ -104,56 +109,107 @@ span {
 /* for screens 390px max */
 
 @media (max-width: 390px) {
-    .container {  
-        height: 100%;
-        width: 100%;
-       
+    #container1 {
+        height: 326.87762451171875px;
+        width: 326.87762451171875px;
     }
-} 
+}
 
 @media (max-width: 390px) {
     .circle {
-        height: 55px;
-        width: 55px;
-       
+        height: 30px;
+        width: 29.727272033691406px;
     }
-} 
+}
+
+@media (max-width: 390px) {
+    #footer {
+        height: 78px;
+        width: 327px;
+    }
+}
+
+@media (max-width: 390px) {
+    .info-box1 {
+        height: 78px;
+        width: 64px;
+    }
+}
+
+@media (max-width: 390px) {
+    .info-box2 {
+        height: 78px;
+        width: 64px;
+    }
+}
+
+@media (max-width: 390px) {
+    .info-box3 {
+        height: 78px;
+        width: 64px;
+    }
+}
+
+@media (max-width: 390px) {
+    .info-box4 {
+        height: 78px;
+        width: 64px;
+    }
+}
+
 
 /* for screens 900px */
 
 @media (max-width: 900px) {
-    .container1 {
+    #footer {
         height: 92px;
-        width: 689px; 
+        width: 689px;
     }
-} 
+}
 
 @media (max-width: 900px) {
-    .info-box1  {
-        height: 80px;
-        width: 164px;
-    }
-} 
-
-@media (max-width: 900px) {
-    .info-box2  {
+    .info-box1 {
         height: 80px;
         width: 164px;
     }
 }
 
 @media (max-width: 900px) {
-    .info-box3  {
+    .info-box2 {
         height: 80px;
         width: 164px;
     }
 }
 
 @media (max-width: 900px) {
-    .info-box4  {
+    .info-box3 {
         height: 80px;
         width: 164px;
     }
 }
 
+@media (max-width: 900px) {
+    .info-box4 {
+        height: 80px;
+        width: 164px;
+    }
+}
 
+@media (max-width: 900px) {
+    h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+    .space {
+        padding: 12px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    span {
+        margin-left: 55px;
+    }
+}
