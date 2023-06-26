@@ -108,55 +108,6 @@ span {
 
 /* for screens 390px max */
 
-@media (max-width: 390px) {
-    #container1 {
-        height: 326.87762451171875px;
-        width: 326.87762451171875px;
-    }
-}
-
-@media (max-width: 390px) {
-    .circle {
-        height: 30px;
-        width: 29.727272033691406px;
-    }
-}
-
-@media (max-width: 390px) {
-    #footer {
-        height: 78px;
-        width: 327px;
-    }
-}
-
-@media (max-width: 390px) {
-    .info-box1 {
-        height: 78px;
-        width: 64px;
-    }
-}
-
-@media (max-width: 390px) {
-    .info-box2 {
-        height: 78px;
-        width: 64px;
-    }
-}
-
-@media (max-width: 390px) {
-    .info-box3 {
-        height: 78px;
-        width: 64px;
-    }
-}
-
-@media (max-width: 390px) {
-    .info-box4 {
-        height: 78px;
-        width: 64px;
-    }
-}
-
 
 /* for screens 900px */
 
