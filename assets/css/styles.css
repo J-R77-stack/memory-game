@@ -106,9 +106,6 @@ span {
 
 /* Media Queries */
 
-/* for screens 390px max */
-
-
 /* for screens 900px */
 
 @media (max-width: 900px) {
@@ -120,47 +117,100 @@ span {
 
 @media (max-width: 900px) {
     .info-box1 {
-        height: 80px;
+        height: 92px;
         width: 164px;
     }
 }
 
 @media (max-width: 900px) {
     .info-box2 {
-        height: 80px;
+        height: 92px;
         width: 164px;
     }
 }
 
 @media (max-width: 900px) {
     .info-box3 {
-        height: 80px;
+        height: 92px;
         width: 164px;
     }
 }
 
 @media (max-width: 900px) {
     .info-box4 {
-        height: 80px;
+        height: 92px;
         width: 164px;
     }
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
     h3 {
         font-size: 18px;
     }
-}
+} */
 
 @media (max-width: 900px) {
     .space {
-        padding: 12px;
-        padding-top: 30px;
+        padding: 8px;
+        padding-top: 35px;
     }
 }
 
 @media (max-width: 900px) {
     span {
         margin-left: 55px;
+    }
+}
+
+/* for screens 390px max */
+
+
+@media (max-width: 390px) {
+    #container1 {
+        height: 326px;
+        width: 326px;
+    }
+}
+
+@media (max-width: 390px) {
+    .circle {
+        height: 30px;
+        width: 29.727272033691406px;
+    }
+}
+
+
+@media (max-width: 390px) {
+    #footer {
+        height: 78px;
+        width: 327px;
+    }
+}
+
+@media (max-width: 390px) {
+    .info-box1 {
+        height: 78px;
+        width: 64px;
+    }
+}
+
+@media (max-width: 390px) {
+    .info-box2 {
+        height: 78px;
+        width: 64px;
+    }
+}
+
+@media (max-width: 390px) {
+    .info-box3 {
+        height: 78px;
+        width: 64px;
+    }
+}
+
+@media (max-width: 390px) {
+    .info-box4 {
+        height: 78px;
+        width: 64px;
     }
 }
