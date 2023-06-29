@@ -22,9 +22,6 @@ h3 {
     font-size: 20px;
 }
 
-.space {
-    padding: 25px;
-}
 
 #button-1 {
     background-color: #FDA214;
@@ -80,24 +77,28 @@ h3 {
     background-color: #fda214;
     height: 72px;
     width: 255px;
+    padding: 25px;
 }
 
 .info-box2 {
     background-color: #bcced9;
     height: 72px;
     width: 255px;
+    padding: 25px;
 }
 
 .info-box3 {
     background-color: #bcced9;
     height: 72px;
     width: 255px;
+    padding: 25px;
 }
 
 .info-box4 {
     background-color: #bcced9;
     height: 72px;
     width: 255px;
+    padding: 25px;
 }
 
 span {
