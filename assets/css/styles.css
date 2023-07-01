@@ -18,7 +18,7 @@ h1 {
 
 h3 {
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    color: #152938;
+    color: #304859;
     font-size: 20px;
 }
 
@@ -105,6 +105,10 @@ span {
     margin-left: 110px;
 }
 
+.player-small {
+    font-size: 14px;
+}
+
 /* Media Queries */
 
 /* for screens 900px */
@@ -120,6 +124,8 @@ span {
     .info-box1 {
         height: 92px;
         width: 164px;
+        padding: 10px;
+        padding-top: 30px;
     }
 }
 
@@ -127,6 +133,9 @@ span {
     .info-box2 {
         height: 92px;
         width: 164px;
+        padding: 5px;
+        padding-top: 30px;
+        padding-left: 10px;
     }
 }
 
@@ -134,6 +143,9 @@ span {
     .info-box3 {
         height: 92px;
         width: 164px;
+        padding: 5px;
+        padding-top: 30px;
+        padding-left: 10px;
     }
 }
 
@@ -141,14 +153,12 @@ span {
     .info-box4 {
         height: 92px;
         width: 164px;
+        padding: 5px;
+        padding-top: 30px;
+        padding-left: 10px;
     }
 }
 
-/* @media (max-width: 900px) {
-    h3 {
-        font-size: 18px;
-    }
-} */
 
 @media (max-width: 900px) {
     .space {
@@ -175,8 +185,8 @@ span {
 
 @media (max-width: 390px) {
     .circle {
-        height: 30px;
-        width: 29.727272033691406px;
+        height: 44px;
+        width: 44px;
     }
 }
 
@@ -192,6 +202,8 @@ span {
     .info-box1 {
         height: 78px;
         width: 64px;
+        padding-left: 25px;
+        padding-top: 15px;
     }
 }
 
@@ -199,6 +211,8 @@ span {
     .info-box2 {
         height: 78px;
         width: 64px;
+        padding-left: 25px;
+        padding-top: 15px;
     }
 }
 
@@ -206,6 +220,8 @@ span {
     .info-box3 {
         height: 78px;
         width: 64px;
+        padding-left: 25px;
+        padding-top: 15px;
     }
 }
 
@@ -213,5 +229,7 @@ span {
     .info-box4 {
         height: 78px;
         width: 64px;
+        padding-left: 25px;
+        padding-top: 15px;
     }
 }
