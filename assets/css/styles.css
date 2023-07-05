@@ -59,11 +59,45 @@ h3 {
     perspective: 500px;
 }
 
+.overlay-text {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+.overlay-text.visible {
+    display: flex;
+    animation: overlay-grow 500ms forwards;
+}
+
+@keyframes overlay-grow {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+      font-size: 0;
+    }
+    to {
+      background-color: #304859;
+      font-size: 5em;
+    }
+  }
+  
+
 .circle {
     position: relative;
     height: 82px;
     width: 82px;
     margin: 5px;
+}
+
+.circle:hover {
+    cursor: pointer;
 }
 
 .circle-face {
@@ -93,15 +127,30 @@ h3 {
     transform: rotateY(180deg);
 }
 
-.circle:hover .circle-back {
+.circle.visible .circle-back {
     transform: rotateY(-180deg);
 }
 
-.circle:hover .circle-front {
+.circle.visible .circle-front {
     transform: rotateY(0);
 }
 
+.circle.matched .fas {
+    animation: dance 1s linear infinite 500ms
+}
 
+@keyframes dance {
+    0% ,100% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(-30deg);
+    }
+
+    75% {
+        transform: rotate(30deg);
+    }
+}
 
 #footer {
     height: 130px;
