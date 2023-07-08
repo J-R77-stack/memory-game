@@ -59,6 +59,8 @@ h3 {
     perspective: 500px;
 }
 
+/* game controls overlay */
+
 .overlay-text {
     top: 0;
     left: 0;
@@ -69,25 +71,46 @@ h3 {
     position: fixed;
     justify-content: center;
     align-items: center;
+    color: #fcfcfc;
+    flex-direction: column;
+}
 
-  }
+.overlay-text-small {
+    font-size: .3em;
+    color: #7191a5;
+}
+
+#selection-container {
+    height: 600px;
+    width: 600px;
+    background-color: #fcfcfc;
+}
 
 .overlay-text.visible {
     display: flex;
+    flex-direction: column;
     animation: overlay-grow 500ms forwards;
 }
 
+
+
 @keyframes overlay-grow {
     from {
-      background-color: rgba(0, 0, 0, 0);
-      font-size: 0;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 0;
     }
+
     to {
-      background-color: #304859;
-      font-size: 5em;
+        background-color: #304859;
+        font-size: 5em;
     }
-  }
-  
+}
+
+#button-4 {
+    background-color: #304859;
+    color: #fcfcfc;
+    font-size: 2rem;
+}
 
 .circle {
     position: relative;
@@ -140,9 +163,12 @@ h3 {
 }
 
 @keyframes dance {
-    0% ,100% {
+
+    0%,
+    100% {
         transform: rotate(0);
     }
+
     25% {
         transform: rotate(-30deg);
     }
