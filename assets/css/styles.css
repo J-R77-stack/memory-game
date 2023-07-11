@@ -185,6 +185,106 @@ h3 {
     margin-top: 30px;
 }
 
+#button-4:hover {
+    background-color: #6395b8;
+}
+
+#button-5:hover {
+    background-color: #6395b8;
+}
+
+#button-6:hover {
+    background-color: #6395b8;
+}
+
+#button-7:hover {
+    background-color: #6395b8;
+}
+
+#button-8:hover {
+    background-color: #6395b8;
+}
+
+#button-9:hover {
+    background-color: #6395b8;
+}
+
+#button-10:hover {
+    background-color: #6395b8;
+}
+
+#button-11:hover {
+    background-color: #6395b8;
+}
+
+#button-12:hover {
+    background-color: #FFD580;
+}
+
+
+/* game controls overlay for winner */
+.overlay-text-winner {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    color: #fcfcfc;
+    flex-direction: column;
+}
+
+.overlay-text-small {
+    font-size: .3em;
+    color: #7191a5;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.overlay-text-big {
+    font-size: .6em;
+    color: #152938;
+}
+
+#selection-container-2 {
+    height: 560px;
+    width: 600px;
+    background-color: #fcfcfc;
+    border-radius: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.overlay-text-winner.visible {
+    display: flex;
+    flex-direction: column;
+    animation: overlay-grow 500ms forwards;
+}
+
+
+
+@keyframes overlay-grow {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 0;
+    }
+
+    to {
+        background-color: rgba(0, 0, 0, .8);
+        font-size: 5em;
+    }
+}
+
+#button-13 {
+    background-color: #152938;
+    color: #fcfcfc;
+    font-size: 1rem;
+    border: none;
+}
+
 .circle {
     position: relative;
     height: 82px;
