@@ -237,11 +237,11 @@ h3 {
     flex-direction: column;
 }
 
-.overlay-text-small {
+.overlay-text-small-2 {
     font-size: .3em;
     color: #7191a5;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .overlay-text-big {
@@ -278,11 +278,64 @@ h3 {
     }
 }
 
+.span-winner {
+    font-size: 2rem;
+}
+
 #button-13 {
     background-color: #152938;
     color: #fcfcfc;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border: none;
+    margin-bottom: 20px;
+}
+
+#button-14 {
+    background-color: #BCCED9;
+    color: #fcfcfc;
+    font-size: 1.5rem;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#button-15 {
+    background-color: #BCCED9;
+    color: #fcfcfc;
+    font-size: 1.5rem;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#button-16 {
+    background-color: #BCCED9;
+    color: #fcfcfc;
+    font-size: 1.5rem;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#button-17 {
+    background-color: #fda214;
+    color: #fcfcfc;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 25px;
+}
+
+#button-18 {
+    background-color: #BCCED9;
+    color: #fcfcfc;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 25px;
+}
+
+#button-18:hover {
+    background-color: #6395b8;
+}
+
+#button-17:hover {
+    background-color: #FFD580;
 }
 
 .circle {
