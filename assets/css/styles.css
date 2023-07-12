@@ -280,6 +280,8 @@ h3 {
 
 .span-winner {
     font-size: 2rem;
+    float: right;
+    
 }
 
 #button-13 {
@@ -288,30 +290,34 @@ h3 {
     font-size: 1.5rem;
     border: none;
     margin-bottom: 20px;
+    text-align: start;
 }
 
 #button-14 {
     background-color: #BCCED9;
-    color: #fcfcfc;
+    color: #7191a5;
     font-size: 1.5rem;
     border: none;
     margin-bottom: 20px;
+    text-align: start;
 }
 
 #button-15 {
     background-color: #BCCED9;
-    color: #fcfcfc;
+    color: #7191a5;
     font-size: 1.5rem;
     border: none;
     margin-bottom: 20px;
+    text-align: start;
 }
 
 #button-16 {
     background-color: #BCCED9;
-    color: #fcfcfc;
+    color: #7191a5;
     font-size: 1.5rem;
     border: none;
     margin-bottom: 20px;
+    text-align: start;
 }
 
 #button-17 {
@@ -336,6 +342,62 @@ h3 {
 
 #button-17:hover {
     background-color: #FFD580;
+}
+
+/* game controls overlay for you did it */
+.overlay-text-you-did-it {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    color: #fcfcfc;
+    flex-direction: column;
+}
+
+.overlay-text-small-3 {
+    font-size: .3em;
+    color: #7191a5;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.overlay-text-big {
+    font-size: .6em;
+    color: #152938;
+}
+
+#selection-container-3 {
+    height: 400px;
+    width: 600px;
+    background-color: #fcfcfc;
+    border-radius: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.overlay-text-you-did-it.visible {
+    display: flex;
+    flex-direction: column;
+    animation: overlay-grow 500ms forwards;
+}
+
+
+
+@keyframes overlay-grow {
+    from {
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 0;
+    }
+
+    to {
+        background-color: rgba(0, 0, 0, .8);
+        font-size: 5em;
+    }
 }
 
 .circle {
