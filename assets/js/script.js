@@ -12,14 +12,26 @@ class Memory {
         this.timeRemaining = this.totalTime;
         this.matchedCircles = [];
         this.busy = true;
+
+        this.shuffleCircles();
     }
 
     flipCircle(circle) {
         if(this.canFlipCircle(circle)){
             this.totalClicks++;
             this.ticker.innerText = this.totalClicks;
+            circle.classList.add("visible");
         }
     }
+
+    shuffleCircles() {
+        for(let i = this.circlesArray.length -1; i > 0; i--){
+            let randIndex = Math.floor(Math.random()* (i+1));
+            this.circlesArray[randIndex].style.order = i;
+            this.circlesArray[i].style.order = randIndex;
+        }
+    }
+
     canFlipCircle(circle) {
         return true;
         // return !this.busy && !this.matchedCircles.includes(circle) && card !== this.circleToCheck;
