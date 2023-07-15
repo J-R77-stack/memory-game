@@ -106,7 +106,7 @@ h3 {
     }
 
     to {
-        background-color: #304859;
+        background-color: rgba(0, 0, 0, .8);
         font-size: 5em;
     }
 }
@@ -223,19 +223,6 @@ h3 {
 
 
 /* game controls overlay for winner */
-.overlay-text-winner {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-    display: none;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    color: #fcfcfc;
-    flex-direction: column;
-}
 
 .overlay-text-small-2 {
     font-size: .3em;
@@ -256,26 +243,6 @@ h3 {
     border-radius: 25px;
     padding-left: 40px;
     padding-right: 40px;
-}
-
-.overlay-text-winner.visible {
-    display: flex;
-    flex-direction: column;
-    animation: overlay-grow 500ms forwards;
-}
-
-
-
-@keyframes overlay-grow {
-    from {
-        background-color: rgba(0, 0, 0, 0);
-        font-size: 0;
-    }
-
-    to {
-        background-color: rgba(0, 0, 0, .8);
-        font-size: 5em;
-    }
 }
 
 .span-winner {
@@ -345,19 +312,6 @@ h3 {
 }
 
 /* game controls overlay for you did it */
-.overlay-text-you-did-it {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-    display: none;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    color: #fcfcfc;
-    flex-direction: column;
-}
 
 .overlay-text-small-3 {
     font-size: .3em;
@@ -378,26 +332,6 @@ h3 {
     border-radius: 25px;
     padding-left: 40px;
     padding-right: 40px;
-}
-
-.overlay-text-you-did-it.visible {
-    display: flex;
-    flex-direction: column;
-    animation: overlay-grow 500ms forwards;
-}
-
-
-
-@keyframes overlay-grow {
-    from {
-        background-color: rgba(0, 0, 0, 0);
-        font-size: 0;
-    }
-
-    to {
-        background-color: rgba(0, 0, 0, .8);
-        font-size: 5em;
-    }
 }
 
 .circle {
@@ -472,7 +406,7 @@ h3 {
 }
 
 .info-box1 {
-    background-color: #fda214;
+    background-color: #bcced9;
     height: 72px;
     width: 255px;
     padding: 25px;
@@ -485,7 +419,7 @@ h3 {
     padding: 25px;
 }
 
-.info-box3 {
+/* .info-box3 {
     background-color: #bcced9;
     height: 72px;
     width: 255px;
@@ -497,7 +431,7 @@ h3 {
     height: 72px;
     width: 255px;
     padding: 25px;
-}
+} */
 
 span {
     margin-left: 110px;
@@ -578,6 +512,7 @@ span {
     #container1 {
         height: 326px;
         width: 326px;
+       
     }
 }
 
@@ -598,19 +533,17 @@ span {
 
 @media (max-width: 390px) {
     .info-box1 {
-        height: 78px;
-        width: 64px;
-        padding-left: 25px;
-        padding-top: 15px;
+        height: 92px;
+        width: 100px;
+       
     }
 }
 
 @media (max-width: 390px) {
     .info-box2 {
-        height: 78px;
-        width: 64px;
-        padding-left: 25px;
-        padding-top: 15px;
+        height: 92px;
+        width: 100px;
+        
     }
 }
 
