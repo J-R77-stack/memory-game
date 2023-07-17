@@ -75,7 +75,7 @@ class Memory {
         this.matchedCircles.push(circle2);
         circle1.classList.add('matched');
         circle2.classList.add('matched');
-        if(this.matchedCircles.length === this.circleArray.length)
+        if(this.matchedCircles.length === this.circlesArray.length)
             this.victory();
     }
     circleMismatch(circle1, circle2) {
