@@ -33,11 +33,13 @@ class Memory {
     gameOver() {
         clearInterval(this.countDown);
         document.getElementById('overlay-text-winner').classList.add('visible');
+        this.hideCircles();
     }
 
     victory() {
         clearInterval(this.countdown);
         document.getElementById('overlay-text-you-did-it').classList.add('visible');
+        this.hideCircles();
     }
 
     hideCircles() {
