@@ -106,14 +106,14 @@ h3 {
     }
 
     to {
-        background-color: #304859;
+        background-color: rgba(0, 0, 0, .8);
         font-size: 5em;
     }
 }
 
 
 #button-4 {
-    background-color: #304859;
+    background-color: #BCCED9;
     color: #fcfcfc;
     font-size: 2rem;
     border: none;
@@ -121,7 +121,7 @@ h3 {
 }
 
 #button-5 {
-    background-color: #BCCED9;
+    background-color: #304859;
     color: #fcfcfc;
     font-size: 2rem;
     border: none;
@@ -161,7 +161,7 @@ h3 {
 }
 
 #button-10 {
-    background-color: #304859;
+    background-color: #BCCED9;
     color: #fcfcfc;
     font-size: 2rem;
     border: none;
@@ -169,7 +169,7 @@ h3 {
 }
 
 #button-11 {
-    background-color: #BCCED9;
+    background-color: #304859;
     color: #fcfcfc;
     font-size: 2rem;
     border: none;
