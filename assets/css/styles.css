@@ -505,6 +505,14 @@ span {
     }
 }
 
+
+@media (max-width: 900px) {
+    #container1 {
+        margin-left: 90px;
+       
+    }
+}
+
 /* for screens 390px max */
 
 
@@ -512,7 +520,7 @@ span {
     #container1 {
         height: 326px;
         width: 326px;
-       
+       margin-left: 10px;
     }
 }
 
