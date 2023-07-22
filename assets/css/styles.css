@@ -520,7 +520,7 @@ span {
     #container1 {
         height: 326px;
         width: 326px;
-       margin-left: 10px;
+        margin-left: 10px;
     }
 }
 
@@ -530,6 +530,14 @@ span {
         width: 44px;
     }
 }
+
+@media (max-width: 390px) {
+    .fas {
+        height: 30px;
+        width: 30px;
+    }
+}
+
 
 
 @media (max-width: 390px) {
